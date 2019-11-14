@@ -83,7 +83,7 @@
 	    margin-top: 2px;
 	    padding: 1% 2%;
 	    position: static;
-	    display: block;
+	    display: block !important;
 	    border-top: none;
 	}
 
