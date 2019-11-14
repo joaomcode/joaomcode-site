@@ -48,7 +48,7 @@ header {
 }
 
 .header-social {
-    width: 50%;
+    width: 43%;
     float: left;
     margin: 2px;
 }
@@ -120,14 +120,22 @@ header {
 }
 
 /* Logo configuration */
+
 .logo {
-    float: left;
     width: 204px;
     height: 202px;
+    margin: 1% auto;
+    position: center;
+}
+
+.logo a h1 {
+    float: left;
+    width: 100%;
+    height: 100%;
     font-size: 0;
-    margin-top: 3%;
+   /* margin-top: 3%;
     margin-bottom: 4%;
-    margin-left: 31%;
+    margin-left: 31%;*/
     background-image: url(../_images/logo.png);
 }
 
@@ -139,6 +147,7 @@ header {
     width: 100%;
     float: left;
     padding: 3% 4%;
+    margin-top: 5px;
     color: #fff;
     background-repeat: no-repeat;
     background-position: center;
@@ -208,6 +217,7 @@ header {
     width: 100%;
     float: left;
     padding: 3% 4%;
+    color: #fff;
 }
 
 .courses h2 {
@@ -219,59 +229,70 @@ header {
 }
 
 .box-courses {
-    width: 80%;
-    margin-left: 10%;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
     float: left;
     padding: 3% 4%;
     margin-bottom: 5%;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px #000;
+    box-shadow: 2px 2px 5px #662654;
+    background-color: #3AA5D7;
     transition-property: all;
     transition-duration: 1s;
 }
 
 .box-courses:hover {
-    box-shadow: 2px 2px 25px #000;
+    box-shadow: 2px 2px 25px #662654;
     transition-property: all;
     transition-duration: 1s;
 }
 
 .box-courses h3 {
     font-size: 1.5em;
-    margin: 2% auto;
+    margin: 1% auto;
 }
 
 .desc {
+    width: 80%;
+    margin-left: 10%;
     font-size: 1.1em;
     margin-bottom: 5px;
-    width: 100%;
 }
 
 .box-courses strong {
     font-size: 1.8em;
     font-weight: bold;
-    color: red;
+    color: #ffcc33;
 }
 
 .discount {
-    width: 42%;
+    width: 50%;
     padding: 2%;
     margin: 2%;
-    color: #333;
+    float: right;
+    color: #662654;
     font-weight: bold;
     font-size: 1em;
-    background-color: rgba(245, 225, 17, 0.7);
+    background-color: rgba(255,204,51,0.9);
 }
 
 .box-courses button{
     font-size: 1.2em;
-    width: 70%;
+    width: 60%;
     height: 40px;
-    float: left;
+    position: center;
     margin: 2%;
     color: #fff;
-    background-color: rgba(241, 7, 7, 0.9);
+    border: solid 1px #fff;
     border-radius: 5px;
+    background-color: rgba(58,165,215,1);
+    cursor: pointer;
+}
+
+.box-courses button:hover {
+    color: #662654;
+    border-color: #662654;
 }
 
 .box-courses ul {
@@ -294,7 +315,89 @@ header {
 footer {
     width: 100%;
     float: left;
+    text-align: center;
     background-color: #3AA5D7;
+}
+
+.footer-text {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+.footer-social {
+    width: 40%;
+    float: left;
+    margin: 1%;
+    margin-left: 31%;
+}
+
+.footer-social ul {
+    width: 100%;
+}
+
+.footer-social ul li {
+    float: left;
+}
+
+.footer-social ul li a {
+    color: #fff;
+    font-size: 2em;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.footer-social ul li a:hover {
+    color: #662654;
+}
+
+/*---------------------------------------------------------------------------*/
+                            /* contato.html*/
+/*---------------------------------------------------------------------------*/
+
+.contact {
+    width: 100%;
+    float: left;
+    padding: 2% 3%;
+    margin: 2% auto;
+    color: #fff;
+    background-color: #3AA5D7;
+}
+
+.contact h2 {
+    width: 100%;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 1%;
+}
+
+.contact-desc {
+    width: 90%;
+    padding: 2% 5%; 
+}
+
+.contact-form {
+    width: 100%;
+    float: left;
+    padding: 1% 10%;
+}
+
+.contact-form input {
+    margin: 1%;
+}
+
+.assunto {
+    height: 100px;
+}
+
+.contact-form-button {
+    width: 50%;
+    float: left;
+    color: #fff;
+    background-color: #3AA5D7;
+    border: solid 1px #fff;
 }
 
 /*---------------------------------------------------------------------------*/
