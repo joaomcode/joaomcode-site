@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow" />
+    <meta name="Keywords" content="joaomcode, webdesign, front-end, back-end, developer" />
+    <meta name="description" content="joaomcode - Webdesign Developer" />
+    <meta name="author" content="joaomcode" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Link's to css style files -->
+    <link rel="stylesheet" type="text/css" href="_style/style.css" />
+    <link rel="stylesheet" type="text/css" href="_style/style-media-query.css" />
+
+    <!-- Link to google fonts Lato -->
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" type="text/css" href="_style/_icons/css/all.css">
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="_scripts/jquery-3.4.1.js"></script>
+
+    <title>joaomcode</title>
+</head>
+<body>
+
+    <!-- Begin of Header -->
+    <header>
+        <!-- Begin of -->
+        <!-- End of -->
+
+        <!-- Begin of Container -->
+        <div class="container">
+            <!-- Begin of Social Networks -->
+            <div class="header-social">
+                <ul>
+                   <li><a href="#"><i class="fab fa-facebook"></i></i> </a></li>
+                    <li><a href="https://github.com/joaomcode" target="_black" ><i class="fab fa-github"></i> </a></li>
+                    <li><a href="https://www.instagram.com/joaomcode/" target="_black"><i class="fab fa-instagram"></i> </a></li>
+                    <li><a href="https://www.youtube.com/channel/UCERw14Ka8SlRN0whBbuQ6_Q?view_as=subscriber" target="_black"><i class="fab fa-youtube"></i> </a></li>
+                </ul>
+            </div>
+            <!-- End of Social Networks -->
+
+            <!-- Begin of Bars Button -->
+            <button class="btn-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <!-- End of Bars Button -->
+
+            <!-- Begin of Menu -->
+            <nav class="menu">
+                <!-- Begin of Menu List -->
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">SOBRE</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                </ul>
+                <!-- End of Menu List -->
+            </nav>
+            <!-- End of Menu -->
+        </div>
+        <!-- End of Container -->
+
+        <!-- Begin of Script Open/Close Bars Button -->
+        <script type="text/javascript">
+            // Hide/Show Menu after click Bars Button
+            $(".btn-menu").click(function(){
+                $(".menu").slideToggle()
+            })
+        </script>
+        <!-- End of Script Open/Close Bars Button -->
+
+        <!-- Begin of Logo -->
+        <div class="logo">
+            <a href="index.html">
+              <h1>joaomcode</h1>
+            </a>            
+        </div>
+        <!-- End of Logo -->
+    </header>
+    <!-- End of Header -->
+    
+    <!-- Begin of Main -->
+    <main class="contact">
+        <h2>Contato</h2>
+
+        <div>
+            <p class="contact-desc">Para assuntos gerais, críticas, sugestões entre em contato através do formulário abaixo ou pelo e-mail <strong>contato@joaomcode.com</strong></p>
+        </div>
+
+        <!-- Begin of Contacts form -->
+        <form class="contact-form">
+            <!-- Begin of Contacts table -->
+            <table>
+                <tr>
+                    <td>
+                        <p>Seu nome (Obrigatório) </p>
+                        <input type="text" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Seu e-mail (Obrigatório) </p>
+                        <input type="email" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Telefone para contato </p>
+                        <input type="phone" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Assunto</p>
+                        <input type="text" class="assunto" />
+                    </td>
+                </tr>
+            </table>
+            <!-- End of Contacts table -->
+            <input type="submit" name="Enviar" class="contact-form-button">
+        </form>
+        <!-- End of Contacts form -->
+
+    </main>
+    <!-- End of Main -->
+
+    <!-- Begin of footer -->
+    <footer>
+        <div class="footer-text">Entre em contato: 0800 123 4567 | SAC: 123 45</div>
+     <!-- Begin of Social Networks -->
+        <div class="footer-social">
+            <ul>
+               <li><a href="#"><i class="fab fa-facebook"></i></i> </a></li>
+                <li><a href="https://github.com/joaomcode" target="_black" ><i class="fab fa-github"></i> </a></li>
+                <li><a href="https://www.instagram.com/joaomcode/" target="_black"><i class="fab fa-instagram"></i> </a></li>
+                <li><a href="https://www.youtube.com/channel/UCERw14Ka8SlRN0whBbuQ6_Q?view_as=subscriber" target="_black"><i class="fab fa-youtube"></i> </a></li>
+            </ul>
+        </div>
+        <!-- End of Social Networks -->
+    </footer>
+    <!-- End of footer -->
+
+    <!-- Begin of -->
+    <!-- End of -->
+</body>
+</html>
