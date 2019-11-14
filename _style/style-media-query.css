@@ -1,0 +1,117 @@
+*-----------------------------------------------------------------------*/
+
+/* Média Query's - Responsive */
+
+/* BreakPoints */
+
+@media screen and (min-width: 568px) {
+
+}
+
+@media screen and (min-width: 667px) {
+
+	/* Courses configuration */
+	.box-courses {
+		width: 49%;
+		margin-left: 1%;
+	}
+
+	.box-courses:hover {
+		box-shadow: 1px 1px 15px #662654;
+	}
+
+	.discount {
+	    width: 50%;
+	    font-size: 0.9em;
+	}
+
+	/* Footer */
+
+	.footer-social {
+	    margin-left: 38%;
+	}
+
+
+/*---------------------------------------------------------------------------*/
+                            /* contato.html*/
+/*---------------------------------------------------------------------------*/
+
+	.contact {
+	    width: 50%;
+	    margin-left: 25%;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+
+	/* Courses configuration */
+	.box-courses {
+		width: 24%;
+		margin-left: 1%; 
+	}
+
+	.discount {
+	    width: 100%;
+	    font-size: 0.9em;
+	}
+
+	.box-courses button{
+	    font-size: 1.2em;
+	    width: 80%;
+	}
+	/* Footer */
+
+	.footer-social {
+	    margin-left: 42%;
+	}
+
+
+/*---------------------------------------------------------------------------*/
+
+}
+
+@media screen and (min-width: 1024px) {
+	.btn-menu {
+		display: none;
+	}
+
+	/* Menu Configuration */
+	.menu {
+	    width: auto;
+	    float: right;
+	    margin-top: 2px;
+	    padding: 1% 2%;
+	    position: static;
+	    display: block;
+	    border-top: none;
+	}
+
+	.menu ul {
+	    width: 100%;
+	    float: left;
+	}
+
+	.menu ul li {
+	    padding: 0;
+	    float: left;
+	}
+
+	.menu ul li a {
+	    padding: 15px;
+	    font-size: 1.2em;
+	}
+
+	.menu ul li a:hover {
+	    color: #662654;
+	}
+	
+	/* Banner Configuration */
+	.banner {
+	    background-image: url(../_images/banner-3.png);
+	}
+
+}
+
+@media screen and (min-width: 1440px) {
+}
